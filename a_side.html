@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>表白设置</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffebee;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e91e63;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #c2185b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>表白设置 (A端)</h1>
+        <form method="POST">
+            <p>输入你心仪的人的名字：</p>
+            <input type="text" name="name" required>
+            
+            <p>输入你想说的话：</p>
+            <textarea name="message" rows="5" required></textarea>
+            
+            <br>
+            <button type="submit">保存表白</button>
+        </form>
+    </div>
+    <div style="position: fixed; left: 10px; bottom: 10px; font-size: 12px; color: #999; font-family: Arial;">by to 车明俊</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>设置成功</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffebee;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e91e63;
+        }
+        .link {
+            color: #e91e63;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>设置成功！</h1>
+        <p>已保存给 <strong>{{ name }}</strong> 的表白</p>
+        <p>请让 TA 访问 B 端页面并输入名字查看你的表白</p>
+        <p>B 端链接: <a href="/b" class="link">点击这里</a></p>
+    </div>
+    <div style="position: fixed; left: 10px; bottom: 10px; font-size: 12px; color: #999; font-family: Arial;">by to 车明俊</div>
+</body>
+</html>
